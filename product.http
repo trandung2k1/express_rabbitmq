@@ -1,0 +1,18 @@
+### Create new product
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Áo Thun Unisex Bad Rabbit Rabbies Đen trắng 100% Cotton - Local Brand Chính Hãng",
+    "price": 329000,
+    "description": "📝Mô tả sản phẩm: Chất liệu: 100% Cotton, Thoáng mát, thấm hút mồ hôi tốt, dễ vận động, Kỹ thuật: Thêu, Màu sắc: Đen / Trắng, Form dáng: Oversized, rộng rãi"
+}
+
+
+### Buy product
+POST http://localhost:4000/products/buy
+Content-Type: application/json
+
+{
+    "productIds": ["647f4ec95892873379632621", "647f4f8489b8931a3b527531"]
+}
