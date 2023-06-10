@@ -34,7 +34,8 @@ router.post('/buy', async (req: Request, res: Response) => {
             console.log('Consumed from product-service-queue');
             order = JSON.parse(data.content);
             if (order._id) {
-                console.log(order)
+                console.log(order);
+                //order successfully and send order auth service
                 channel.ack(data);
             } else {
                 return;
