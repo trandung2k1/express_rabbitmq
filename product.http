@@ -14,5 +14,5 @@ POST http://localhost:4000/products/buy
 Content-Type: application/json
 
 {
-    "productIds": ["647f4ec95892873379632621", "647f4f8489b8931a3b527531"]
+    "productIds": ["67172e808b9739f3f1bac346"]
 }
